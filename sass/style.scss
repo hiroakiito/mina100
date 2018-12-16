@@ -1,0 +1,74 @@
+.test {
+   border: 1px solid #000000;
+}
+
+.test-w {
+  border: 1px solid #fff;
+}
+
+@font-face {
+    font-family: kktt;
+    src: url('../fonts/851H-kktt_004.ttf') format("truetype");
+}
+/* ヘッダー */
+.cover-img {
+	height: 500px;
+	display: table;
+	width: 100%;
+	background-size: cover;
+  background-position: 40% 50%;
+}
+
+.cover-text {
+  font-size: 70px;
+  font-family: kktt;
+	display: table-cell;
+	vertical-align: middle;
+  text-align: center;
+}
+/* メニュー */
+.menu a{
+  line-height: 2.25;
+  height: 40px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 1px;
+  background-color: #808080;
+
+  &:hover {
+    color: #DDDDDD;
+    background-color: #777777;
+  }
+}
+
+.width-auto {
+  margin: 0 auto;
+}
+
+/* セクション */
+section {
+  height: 400px;
+}
+
+/* フッター */
+footer {
+  height: 60px;
+  background-color: #99CCFF;
+}
+
+.list-inline-item {
+  font-size: 15px;
+}
+
+.copy {
+  font-size: 13px;
+}
+
+
+
+
+
+.md-none {
+  display: none;
+}
